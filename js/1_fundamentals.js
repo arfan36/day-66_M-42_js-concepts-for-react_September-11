@@ -1,9 +1,9 @@
-// 1. How to declare variable using let and const
+//* ─── 1. How To Declare Variable Using Let And Const ─────────────────────────────
 const fatherName = 'Arnold';
 let season = 'rainy';
 season = 'winter';
 
-//* 2. conditions
+//* ─── 2. Conditions ──────────────────────────────────────────────────────────────
 // 6 basic conditions >, <, ===, !==, <=, >=
 // multiple conditions: &&, ||
 if (fatherName === 'arnold' || season === 'rainy') {
@@ -16,26 +16,26 @@ else {
 
 }
 
-//* 3. array declare
+//* ─── 3. Array Declare ───────────────────────────────────────────────────────────
 // index
 // length, push
 const numbers = [89, 35, 98, 12];
 numbers[0] = 56;
 
-// 4. for loop
+//* ─── 4. For Loop ────────────────────────────────────────────────────────────────
 for (let i = 0; i < numbers.length; i++) {
     const number = numbers[i];
     // console.log(number);
 }
 
-// 5. function
+//* ─── 5. Function ────────────────────────────────────────────────────────────────
 function multiply(num1, num2) {
     const result = num1 * num2;
     return result;
 }
 const output = multiply(35, 78);
 
-//* 6. Object
+//* ─── 6. Object ──────────────────────────────────────────────────────────────────
 // 3 ways to access property by name
 const student = {
     name: 'Salib Khan',
@@ -45,6 +45,6 @@ const student = {
 
 const myVariable = 'age';
 
-console.log(student.age);   // direct access by property
-console.log(student['age']);    // access via property name string
-console.log(student[myVariable]);   // access via property name in a variable
+// console.log(student.age);   //# direct access by property 
+// console.log(student['age']);    //# access via property name string
+// console.log(student[myVariable]);   //# access via property name in a variable
