@@ -19,7 +19,7 @@ const doMath = (num1, num2) => {
     return sum;
 };
 
-// ─── 3. Spread Operator ─────────────────────────────────────────────────────────
+// ───  Spread Operator ─────────────────────────────────────────────────────────
 const newNumbers = [...numbers];
 // create a new array from an old array and add an element
 const currentNumbers = [...numbers, 55]
